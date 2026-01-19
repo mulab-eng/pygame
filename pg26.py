@@ -393,7 +393,7 @@ def main():
     global se_shot, se_hit, written, zenkaiscore, switch
     pygame.init()
     pygame.joystick.init()
-    pygame.display.set_caption("ウィンドウに表示される文字")
+    pygame.display.set_caption("シューティングゲーム")
     screen = pygame.display.set_mode((WIDTH, HEIGHT))  # ウィンドウのサイズ
     clock = pygame.time.Clock()  # 画面更新のためにクロックをつくっておく
     se_shot=pygame.mixer.Sound('shot.wav')
