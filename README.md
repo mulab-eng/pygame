@@ -2,7 +2,7 @@
 
 研究室に配属された 3 年生 5 名が週一回研究室に来て，演習課題としてPythonによるゲーム開発に取り組みました．二輪駆動ロボットが弾を発射し，敵機に命中させるゲームです．
 
-<BR><img src="game.png" alt="説明" width="400"/>
+<BR><img src="./imageForReadme/game.png" alt="説明" width="400"/>
 ## はじめに
 
 ### プログラムのダウンロード
@@ -48,7 +48,7 @@ Pythonを使用し，Pygameというライブラリを用いてゲームを開�
 ## 制御工学の応用
 
 プレーヤーが操作するロボットめがけて敵機は弾を発射します．敵機による命中率を上げるために，ロボットの速度から未来の位置を推定し，その情報をもとに敵機の姿勢（回転角）を制御するプログラムを組み込みました．
-<BR><img src="control.jpg" alt="説明" width="400"/>
+<BR><img src="./imageForReadme/control.jpg" alt="説明" width="400"/>
 
 ## 二輪駆動ロボットの運動学に基づく動作アニメーション
 
@@ -58,20 +58,20 @@ Pythonを使用し，Pygameというライブラリを用いてゲームを開�
 ## 突如現れる障害物
 
 単調になりがちなシューティングゲームに，あるタイミングで登場する障害物を導入しました．ロボットに接近して接触すると吸着してロボットを強制的に移動させます．
-<BR><img src="obst.jpg" alt="説明" width="200"/>
+<BR><img src="./imageForReadme/obst.jpg" alt="説明" width="200"/>
 
 ## ゲームパッド対応
 pygameライブラリを使ってゲームパッドを導入しました．ロボットの移動と弾の発射はもちろん，他の機能も設定しました．
 
-<BR><img src="pad.jpg" alt="説明" width="400"/>
+<BR><img src="./imageForReadme/pad.jpg" alt="説明" width="400"/>
 ## 画像の生成
 
 プログラミングではAIを使いませんでしたが，画像の生成にはAIを活用しました．敵機や背景画像はGeminiを用いて作成しました．
-<BR><img src="image.jpg" alt="説明" width="400"/>
+<BR><img src="./imageForReadme/image.jpg" alt="説明" width="400"/>
 ## サウンドの創作
 
 ゲームの効果音やBGMはSteinberg社の音楽作成ソフトウエア Cubase を用いて作成しました．効果音のほか BGM は軽音サークルに所属する学生によるオリジナル曲です．
-<BR><img src="sound.jpg" alt="説明" width="400"/>
+<BR><img src="./imageForReadme/sound.jpg" alt="説明" width="400"/>
 
 ## チームでの開発
 学生はみんなPython初心者でしたので，前半6週はPython全員が同じ課題（PythonとPygameの基礎）に取り組みました．
